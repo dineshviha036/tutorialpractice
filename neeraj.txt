@@ -5,4 +5,7 @@ Question - perform git reset command
 Answer - reset command :-
          We use when we want to move the repository back to a previous commit, discarding any changes made after that commit.
 
-         git reset <commit id>
+         git reset --hard <commit id>            --> update working dir
+         git reset --soft <commit id>            --> update HEAD
+         git reset --mixed <commit id>           --> update index
+         
