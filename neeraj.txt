@@ -1,0 +1,4 @@
+git training session 
+
+Question - perform git reset command
+
